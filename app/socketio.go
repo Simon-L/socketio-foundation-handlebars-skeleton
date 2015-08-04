@@ -24,7 +24,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func PatchServer() {
+func patchServer() {
 	// create socketio server config
 	// config := &socketio.Config{}
 	// config.HeartbeatTimeout = 2
