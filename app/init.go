@@ -1,7 +1,6 @@
 package app
 
 import (
-	"./socketio"
 	"github.com/revel/revel"
 )
 
@@ -26,7 +25,7 @@ func init() {
 	// ( order dependent )
 	// revel.OnAppStart(InitDB)
 	// revel.OnAppStart(FillCache)
-	revel.OnAppStart(socketio.PatchServer)
+	revel.OnAppStart(PatchServer)
 }
 
 // TODO turn this into revel.HeaderFilter

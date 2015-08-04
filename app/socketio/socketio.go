@@ -1,4 +1,4 @@
-package socketio
+package app
 
 import (
 	"net/http"
