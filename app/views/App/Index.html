@@ -3,37 +3,49 @@
 <br>
 <div class="row text-center">
   <h3>Socket.io + Foundation + Handlebars skeleton</h3>
-  <h4 class="subheader">WebSockets, CSS/JS framework, client side templates</h4>
+  <h4 class="subheader">WebSockets, CSS/JS framework and client-side templating</h4>
   <hr>
 </div>
 <div class="row">
   <div id="alert"></div>
   <div class="large-12 columns">
-    <h5>This is the default index page.</h5>
+    <h4>This is the default index page.</h4>
     <p>You should see a Foundation success alert box generated from Handlebars templates if everything worked.</p>
-    <p>Check <code>Index.html</code> in <code>app/views/App/Index.html</code> and the console output for more infos.</p>
+    <p>Check <code>Index.html</code> in <code>app/views/App/</code>, <code>main.js</code> in <code>public/js/</code> and the console output for more infos.</p>
   </div>
 </div>
 
 <div class="row"><hr></div>
 <div class="row">
+  <h4>What's inside:</h4>
+</div>
+<div class="row">
     <div class="large-6 columns">
       <div class="panel text-center">
-        <a href="http://socket.io/">Socket.io</a><br>Simple and complete WebSocket connections.<br>Find specific handlers for receiving and sending messages in Go in <code>app/handlers.go</code> in and general Socket.io server setup in <code>app/socketio.go</code>.<br>Uses package <a href="https://github.com/googollee/go-socket.io" class="">go-socket.io</a>.
+        <h4><a href="http://socket.io/">Socket.io</a></h4>
+        <br>Simple and complete WebSocket connections.<br>Find specific handlers for receiving and sending messages in Go in <code>app/handlers.go</code> and general Socket.io server setup in <code>app/socketio.go</code>.<br>Server uses package <a href="https://github.com/googollee/go-socket.io" class="">go-socket.io</a>.
+        <br><a href="http://socket.io/docs">Read more on Socket.IO</a>
       </div>
     </div>
     <div class="large-6 columns">
       <div class="panel text-center">
-        <a href="http://foundation.zurb.com/">Foundation</a><br>UI Framework using JS and CSS, contains all you need to start a new app.
+        <h4><a href="http://foundation.zurb.com/">Foundation</a></h4>
+        <br>UI Framework using JS and CSS, contains all you need to start a new app.
+        <br><a href="http://foundation.zurb.com/docs/">Read more</a>
       </div>
     </div>
 </div>
 <div class="row">
   <div class="large-12 columns">
     <div class="panel text-center">
-      <a href="http://handlebarsjs.com/">Handlebars</a><br>Rendering client-side templates compatible with Mustache.<br>You need Handlebars installed to use precompiled templates.<br>Run <code>handlebars . -f ../../../public/js/handlebars-templates.js</code> in <code>app/views/handlerbars</code> to precompile your templates and find them as <code>Handlebars.templates.<em>templatename</em>()</code> in Javascript.
+      <h4><a href="http://handlebarsjs.com/">Handlebars</a></h4>
+      <br>Rendering client-side templates compatible with Mustache.<br>You need Handlebars to precompile templates.<br>Run <code>handlebars . -f ../../../public/js/handlebars-templates.js</code> in <code>app/views/handlerbars</code> to precompile your templates and find them as <code>Handlebars.templates.<em>templatename</em>()</code> in Javascript.
+      <br><a href="http://handlebarsjs.com/expressions.html">Read more</a>
     </div>
   </div>
 </div>
+<div class="row"><hr></div>
+<p class="text-center">Readme, Contributing: <a href="https://github.com/Simon-L/socketio-foundation-handlebars-skeleton">Github repository</a></p>
+<div class="row"><hr></div>
 
 {{template "footer.html" .}}
