@@ -3,7 +3,7 @@
 <br>
 <div class="row text-center">
   <h3>Socket.io + Foundation + Handlebars skeleton</h3>
-  <h4 class="subheader">Websockets, CSS/JS framework, client side templates</h4>
+  <h4 class="subheader">WebSockets, CSS/JS framework, client side templates</h4>
   <hr>
 </div>
 <div class="row">
@@ -11,6 +11,28 @@
   <div class="large-12 columns">
     <h5>This is the default index page.</h5>
     <p>You should see a Foundation success alert box generated from Handlebars templates if everything worked.</p>
+    <p>Check <code>Index.html</code> in <code>app/views/App/Index.html</code> and the console output for more infos.</p>
+  </div>
+</div>
+
+<div class="row"><hr></div>
+<div class="row">
+    <div class="large-6 columns">
+      <div class="panel text-center">
+        <a href="http://socket.io/">Socket.io</a><br>Simple and complete WebSocket connections.<br>Find specific handlers for receiving and sending messages in Go in <code>app/handlers.go</code> in and general Socket.io server setup in <code>app/socketio.go</code>.<br>Uses package <a href="https://github.com/googollee/go-socket.io" class="">go-socket.io</a>.
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="panel text-center">
+        <a href="http://foundation.zurb.com/">Foundation</a><br>UI Framework using JS and CSS, contains all you need to start a new app.
+      </div>
+    </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <div class="panel text-center">
+      <a href="http://handlebarsjs.com/">Handlebars</a><br>Rendering client-side templates compatible with Mustache.<br>You need Handlebars installed to use precompiled templates.<br>Run <code>handlebars . -f ../../../public/js/handlebars-templates.js</code> in <code>app/views/handlerbars</code> to precompile your templates and find them as <code>Handlebars.templates.<em>templatename</em>()</code> in Javascript.
+    </div>
   </div>
 </div>
 
