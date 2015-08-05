@@ -14,4 +14,9 @@ Use with :
 
     revel new project/path github.com/Simon-L/socketio-foundation-handlebars-skeleton
 
+Test with :
+
+    revel run project/path
+And visit <tt>http://localhost:9000</tt> for more infos.
+
 Integrating go-socketio to Revel taken from [here](http://www.pixeldonor.com/2014/apr/30/combining-revel-and-socketio/).
