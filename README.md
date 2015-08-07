@@ -8,7 +8,7 @@ This is a Revel app skeleton with some commonly used frameworks and libraries.
 
 Install with :
 
-    go get github.com/Simon-L/socketio-foundation-handlebars-skeleton
+    go get -d github.com/Simon-L/socketio-foundation-handlebars-skeleton
 
 Use with :
 
